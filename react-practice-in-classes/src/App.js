@@ -52,3 +52,7 @@ export default App;
 
 // a => 1234
 // a => 12
+
+let a = {k: 10, l: {r: 20, m: 39}}
+let b = {...a,...a.l};
+console.log(b);
