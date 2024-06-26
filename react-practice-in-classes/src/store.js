@@ -1,20 +1,20 @@
-import {createStore} from "redux";
+// import {createStore} from "redux";
 
-const cartReducer = () => {
+// const cartReducer = () => {
 
-    switch(action, type){
+//     switch(action, type){
 
-        case "ADD_TO_CART" {
+//         case "ADD_TO_CART" {
 
-        }
+//         }
 
-        case "REMOVE_FROM_CART"{
+//         case "REMOVE_FROM_CART"{
 
-        }
-        default:
-            return state;
-    }
-} 
+//         }
+//         default:
+//             return state;
+//     }
+// } 
 
-const store = createStore(cartReducer);
-export default store;
+// const store = createStore(cartReducer);
+// export default store;
